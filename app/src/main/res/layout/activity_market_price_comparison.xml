@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_market_price_comparision"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mtingwi.chisoni.zakumunda.MarketPriceComparisonActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.mtingwi.chisoni.zakumunda.SmartSwipeRefreshLayout
+        android:id="@+id/marketPricesSmartSwipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tool_bar"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/marketPricesRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.mtingwi.chisoni.zakumunda.SmartSwipeRefreshLayout>
+
+</RelativeLayout>
