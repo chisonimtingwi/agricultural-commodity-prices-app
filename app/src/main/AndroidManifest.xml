@@ -21,7 +21,7 @@
                 android:value=".MainActivity" />
         </activity>
         <activity android:name=".CompareMarketPricesActivity" />
-        <activity android:name=".MarketPriceComparisionActivity">
+        <activity android:name=".MarketPriceComparisonActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".CompareMarketPricesActivity" />

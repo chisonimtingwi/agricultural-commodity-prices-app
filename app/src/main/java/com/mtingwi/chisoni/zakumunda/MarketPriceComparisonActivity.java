@@ -1,7 +1,6 @@
 package com.mtingwi.chisoni.zakumunda;
 
 import android.content.Intent;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,7 +12,7 @@ import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MarketPriceComparisionActivity extends AppCompatActivity {
+public class MarketPriceComparisonActivity extends AppCompatActivity {
     List<Commodity> marketPrices;
     String firstMarketDetails;
     String secondMarketDetails;
@@ -22,7 +21,7 @@ public class MarketPriceComparisionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_market_price_comparision);
+        setContentView(R.layout.activity_market_price_comparison);
 
         Intent intent = getIntent();
         Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);

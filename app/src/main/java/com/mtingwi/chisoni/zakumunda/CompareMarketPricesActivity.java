@@ -10,7 +10,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import com.mikepenz.materialdrawer.Drawer;
 
@@ -81,7 +80,7 @@ public class CompareMarketPricesActivity extends AppCompatActivity {
         } else {
             //Toast.makeText(this, "All good", Toast.LENGTH_LONG).show();
 
-            Intent intent = new Intent(this, MarketPriceComparisionActivity.class);
+            Intent intent = new Intent(this, MarketPriceComparisonActivity.class);
             intent.putExtra("firstMarketDetails", firstMarketSelection);
             intent.putExtra("secondMarketDetails", secondMarketSelection);
             intent.putExtra("commodityDetails", commoditySelection);
